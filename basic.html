@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header & Footer</title>
+    <link rel="stylesheet"  href="index.css">
+   <style>
+body{
+    font-family: verdana;
+}*{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position:absolute;
+    background-color: rgb(167, 47, 47);
+    width:100%;
+    color:white;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left:20%;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height :15vh;
+    bottom:0;
+}
+footer h2{
+    position: absolute;
+    left:75%;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left:65%;
+    top:20px;
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    position: fixed;
+    width: 10%;
+    height: 70%;
+    background-color: black;
+}
+
+#sidebar li{
+    color: beige;
+    font-size: 20px;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    text-align:center;
+}
+    </style>
+</head>
+<body>
+        <header>
+            <h2>Myshow</h2>
+            <div class="nav">
+                <a href="">Home</a>
+                <a href="">Blog</a>
+                <a href="">FAQ</a>
+                <a href="">About</a>
+                <a href="">Login</a>
+            </div>
+            <div id="sidebar">
+                  <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>About</li>
+                    <li>Login</li>
+
+                  </ul>
+            </div>
+        </header>
+        <footer>
+            <h2>&copy; Copyright Reserved. </h2>
+        </footer>
+</body>
+</html>
